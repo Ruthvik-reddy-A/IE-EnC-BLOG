@@ -1,0 +1,99 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    color:black ;
+}
+body,card{
+    background-image: url('images/electronics_bg1.jfif');
+    height: 150%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+  }
+
+.card{
+  background-color:blanchedalmond;
+}
+
+  h1,em{
+    color:gold;
+  }
+
+.fa-instagram :hover{
+  color: #d5d5d5;
+}
+
+footer {
+    background-color: black;
+    color: lime;
+    padding-top: 2rem;
+}
+
+#logo{
+ height: 150px;
+ width: 150px;
+}
+
+#nav{
+  color: aqua;
+}
+
+a{
+  text-decoration: white;
+  color:yellow;    
+}
+
+a:hover{
+  color:pink;
+}
+
+a:active{
+  color:green;
+}
+
+a:visited{
+   color:blue;
+}
+
+
+
+hr{
+ border: 1px solid red;
+}
+
+
+@media (max-width: 500px) { 
+  #logo{
+    height: 100px;
+    width: 100px;
+   }
+
+   h1,h3, h4, p, a{
+     font-size: 100%;
+   }
+   
+   #nav{
+     color: aqua;
+   }
+   
+   a{
+     text-decoration: white;
+     color:yellow;    
+   }
+   
+   a:hover{
+     color:pink;
+   }
+   
+   a:active{
+     color:green;
+   }
+   
+   a:visited{
+      color:blue;
+   }
+   
+   
+
+}
