@@ -97,11 +97,5 @@ hr{
    
    a:visited{
       color:blue;
-   }
-   
-   #image{
-     height: 100px;
-     width:200px
-   }
-
+  } 
 }
